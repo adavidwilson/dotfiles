@@ -1,0 +1,9 @@
+-o "~/Downloads/%(uploader)s - %(title)s [%(id)s] (%(upload_date)s).%(ext)s"
+
+-f 'bestvideo[vcodec!=vp9]+bestaudio/best[vcodec!=vp9]/best'
+
+--add-metadata
+--embed-thumbnail
+--embed-subs
+
+--merge-output-format mp4

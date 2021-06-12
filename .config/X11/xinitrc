@@ -1,0 +1,10 @@
+setxkbmap dvorak -option ctrl:nocaps
+
+picom -b
+
+feh --bg-fill --no-fehbg $XDG_DATA_HOME/wall.jpg &
+slstatus &
+dunst &
+thunar --daemon &
+redshift &
+exec dwm

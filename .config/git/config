@@ -1,0 +1,10 @@
+[user]
+	name = David Alexander Wilson
+	email = david@adavidwilson.com
+[commit]
+	signingkey = C68C64655593ABAF
+	gpgSign = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
