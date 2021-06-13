@@ -1,4 +1,4 @@
-# Monday, May 31, 2021
+# Day, Month Day, Year
 
 ## Tasks
 

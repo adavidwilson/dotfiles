@@ -1,5 +1,8 @@
 setxkbmap dvorak -option ctrl:nocaps
 
+xinput set-prop 'Synaptics TM3053-003' 'libinput Tapping Enabled' 1
+xinput set-prop 'Synaptics TM3053-003' 'libinput Natural Scrolling Enabled' 1
+
 picom -b
 
 feh --bg-fill --no-fehbg $XDG_DATA_HOME/wall.jpg &
