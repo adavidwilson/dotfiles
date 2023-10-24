@@ -1,0 +1,17 @@
+# Output format
+# Switch commented lines for archive-style or in-place
+#-o "~/Videos/YouTube/%(uploader)s (%(uploader_id)s)/%(upload_date)s - %(title)s [%(id)s].%(ext)s"
+-o "%(upload_date)s - %(title)s [%(id)s].%(ext)s"
+
+# Avoid re-downloading videos
+--download-archive "~/Videos/YouTube/.yt-dlp-downloads"
+# Uncomment to archive everything listed
+# -a "~/Videos/YouTube/.yt-dlp-archive"
+
+# Uniform format
+--merge-output-format mkv
+
+# Get metadata
+--embed-metadata
+--embed-thumbnail
+--embed-subs
