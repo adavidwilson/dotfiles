@@ -105,15 +105,24 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
+
 # ZSH
 export HISTFILE="$XDG_STATE_HOME/zsh/history"
+
 # NPM
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+
 # GnuPG
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 export GPG_TTY="$(tty)"
 export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
 gpgconf --launch gpg-agent
+
+# Python
+export PYTHONPYCACHEPREFIX="$XDG_CACHE_HOME/python"
+export PYTHONUSERBASE="$XDG_DATA_HOME/python"
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/startup.py"
+
 # Local binaries
 export PATH="$HOME/.local/bin:$PATH"
 
