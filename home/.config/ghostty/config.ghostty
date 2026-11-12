@@ -1,3 +1,4 @@
 font-family = JetBrainsMono Nerd Font
 theme = dark:Rose Pine,light:Rose Pine Dawn
-window-height = 24 80
+window-height = 24
+window-width = 80
