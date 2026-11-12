@@ -1,3 +1,9 @@
+[bootstrap.packages]
+fastfetch = "latest"
+ghostty = "latest"
+mise = "latest"
+neovim = "latest"
+
 [bootstrap.services.mise-history]
 builtin = "history-watch"
 
