@@ -8,6 +8,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/fastfetch",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/ghostty",
       "autosave": true,
       "encrypt": false,
@@ -22,5 +28,7 @@
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {}
+  "permissions": {
+    "home/.config/fastfetch": 484
+  }
 }
