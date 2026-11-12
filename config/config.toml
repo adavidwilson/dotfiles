@@ -1,0 +1,5 @@
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[dotfiles]
+"~/.config/mise" = { mode = "track" }
