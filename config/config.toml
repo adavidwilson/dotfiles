@@ -1,0 +1,8 @@
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[dotfiles]
+"~/.config/fastfetch" = { mode = "track" }
+"~/.config/ghostty" = { mode = "track" }
+"~/.config/mise" = { mode = "track" }
+"~/.config/nvim" = { mode = "track" }
