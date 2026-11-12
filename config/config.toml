@@ -4,3 +4,4 @@ builtin = "history-watch"
 [dotfiles]
 "~/.config/ghostty" = { mode = "track" }
 "~/.config/mise" = { mode = "track" }
+"~/.config/nvim" = { mode = "track" }
