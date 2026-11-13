@@ -1,3 +1,9 @@
+[bootstrap.packages]
+"pacman:fastfetch" = "latest"
+"pacman:ghostty" = "latest"
+"pacman:mise" = "latest"
+"pacman:neovim" = "latest"
+
 [bootstrap.services.mise-history]
 builtin = "history-watch"
 
