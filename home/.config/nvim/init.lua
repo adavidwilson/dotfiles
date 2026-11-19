@@ -1,3 +1,5 @@
+vim.g.mapleader = " "
+
 -- Colorscheme
 vim.pack.add({
 	{
