@@ -32,3 +32,7 @@ require("zen-mode").setup({
   window = { width = 80 },
 })
 vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<cr>")
+
+-- Twilight
+vim.pack.add({ "https://github.com/folke/twilight.nvim" })
+require("twilight").setup()
