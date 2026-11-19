@@ -22,3 +22,11 @@ require("conform").setup({
     lsp_format = "fallback",
   },
 })
+
+-- Zen
+vim.pack.add({ "https://github.com/folke/zen-mode.nvim" })
+
+require("zen-mode").setup({
+  window = { width = 80 },
+})
+vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<cr>")
