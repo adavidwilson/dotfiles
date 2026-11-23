@@ -37,6 +37,14 @@ vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<cr>")
 vim.pack.add({ "https://github.com/folke/twilight.nvim" })
 require("twilight").setup()
 
+-- Outline
+vim.pack.add({ "https://github.com/hedyhli/outline.nvim" })
+require("outline").setup({
+  outline_window = {
+    position = "left",
+  },
+})
+
 -- Options
 vim.opt.textwidth = 80
 vim.opt.formatoptions = vim.opt.formatoptions + { 't', 'q' }
