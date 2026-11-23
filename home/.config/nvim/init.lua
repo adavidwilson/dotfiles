@@ -36,3 +36,7 @@ vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<cr>")
 -- Twilight
 vim.pack.add({ "https://github.com/folke/twilight.nvim" })
 require("twilight").setup()
+
+-- Options
+vim.opt.textwidth = 80
+vim.opt.formatoptions = vim.opt.formatoptions + { 't', 'q' }
