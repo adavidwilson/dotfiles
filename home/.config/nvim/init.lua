@@ -44,6 +44,7 @@ require("outline").setup({
     position = "left",
   },
 })
+vim.keymap.set("n", "<leader>o", "<cmd>Outline<CR>")
 
 -- Options
 vim.opt.textwidth = 80
