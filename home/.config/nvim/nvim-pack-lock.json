@@ -4,6 +4,10 @@
       "rev": "016802de402556da54c36bd7359b441266b01cdd",
       "src": "https://github.com/stevearc/conform.nvim"
     },
+    "outline.nvim": {
+      "rev": "6f95d46ff1d128fd4e6ec77f660caec6ad40a122",
+      "src": "https://github.com/hedyhli/outline.nvim"
+    },
     "rose-pine": {
       "rev": "ff483051a47e27d84bdef47703538df1ed9f4a47",
       "src": "https://github.com/rose-pine/neovim"
