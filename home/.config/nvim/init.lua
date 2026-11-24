@@ -47,5 +47,5 @@ require("outline").setup({
 vim.keymap.set("n", "<leader>o", "<cmd>Outline<CR>")
 
 -- Options
-vim.opt.textwidth = 80
-vim.opt.formatoptions = vim.opt.formatoptions + { 't', 'q' }
+-- vim.opt.textwidth = 80
+-- vim.opt.formatoptions = vim.opt.formatoptions + { 't', 'q' }
