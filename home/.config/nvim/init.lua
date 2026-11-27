@@ -18,6 +18,7 @@ vim.pack.add({
 require("conform").setup({
   formatters_by_ft = {
     markdown = { "rumdl" },
+    bibtex = { "bibtex-tidy" },
   },
   format_on_save = {
     timeout_ms = 500,
