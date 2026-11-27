@@ -17,7 +17,7 @@ vim.pack.add({
 
 require("conform").setup({
   formatters = {
-    "bibtex-tidy" = {
+    ["bibtex-tidy"] = {
       append_args = {
         "--curly",
         "--numeric",
