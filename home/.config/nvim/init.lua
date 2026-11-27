@@ -39,8 +39,8 @@ require("conform").setup({
         "--remove-dupe-fields",
         "--wrap=80",
       },
-    }
-  }
+    },
+  },
   formatters_by_ft = {
     markdown = { "rumdl" },
     bib = { "bibtex-tidy" },
