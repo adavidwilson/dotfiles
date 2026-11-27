@@ -16,6 +16,31 @@ vim.pack.add({
 })
 
 require("conform").setup({
+  formatters = {
+    bibtex-tidy = {
+      append_args = {
+        "--curly",
+        "--numeric",
+        "--months",
+        "--space=2",
+        "--align=14",
+        "--blank-lines",
+        "--sort",
+        "--duplicates",
+        "--merge=combine",
+        "--strip-enclosing-braces",
+        "--drop-all-caps",
+        "--escape",
+        "--sort-fields",
+        "--trailing-commas",
+        "--encode-urls",
+        "--tidy-comments",
+        "--remove-empty-fields",
+        "--remove-dupe-fields",
+        "--wrap=80",
+      },
+    }
+  }
   formatters_by_ft = {
     markdown = { "rumdl" },
     bib = { "bibtex-tidy" },
